@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KRONA | Элитные пиломатериалы премиум-класса</title>
+    <meta name="description" content="Производство и продажа элитных пиломатериалов из ценных пород древесины. Собственное производство, европейское качество, доставка по всей России.">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="img/favicon/site.webmanifest">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Swiper JS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader__logo">
+            <svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M60 120C93.1371 120 120 93.1371 120 60C120 26.8629 93.1371 0 60 0C26.8629 0 0 26.8629 0 60C0 93.1371 26.8629 120 60 120Z" fill="#2C7D3F"/>
+                <path d="M60 30L75 45H45L60 30Z" fill="white"/>
+                <path d="M60 90L45 75H75L60 90Z" fill="white"/>
+                <path d="M30 60L45 45V75L30 60Z" fill="white"/>
+                <path d="M90 60L75 75V45L90 60Z" fill="white"/>
+            </svg>
+        </div>
+    </div>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <div class="floating-element element-1"></div>
+        <div class="floating-element element-2"></div>
+        <div class="floating-element element-3"></div>
+    </div>
+
+    <!-- Floating Call Button -->
+    <div class="floating-call-button">
+        <a href="tel:+78003332211" class="btn btn-primary rounded-circle shadow-lg">
+            <i class="fas fa-phone-alt"></i>
+            <span class="tooltip">Заказать звонок</span>
+        </a>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <span class="logo-icon">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40Z" fill="#2C7D3F"/>
+                                <path d="M20 10L25 15H15L20 10Z" fill="white"/>
+                                <path d="M20 30L15 25H25L20 30Z" fill="white"/>
+                                <path d="M10 20L15 15V25L10 20Z" fill="white"/>
+                                <path d="M30 20L25 25V15L30 20Z" fill="white"/>
+                            </svg>
+                        </span>
+                        <span class="logo-text">
+                            <span class="d-block fw-bold">KRONA</span>
+                            <small class="d-block">Элитная древесина</small>
+                        </span>
+                    </a>
+
+                    <div class="d-flex align-items-center d-lg-none">
+                        <a href="tel:+78003332211" class="btn btn-sm btn-outline-light me-2">
+                            <i class="fas fa-phone-alt me-1"></i>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#products">Каталог</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#materials">Породы</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Проекты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Услуги</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacts">Контакты</a>
+                            </li>
+                        </ul>
+
+                        <div class="d-none d-lg-flex align-items-center">
+                            <div class="me-4">
+                                <a href="tel:+78003332211" class="text-decoration-none d-flex align-items-center">
+                                    <i class="fas fa-phone-alt me-2"></i>
+                                    <span class="fw-bold">8 (800) 333-22-11</span>
+                                </a>
+                            </div>
+                            <button class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#callbackModal">
+                                <i class="fas fa-phone-alt me-1"></i> Консультация
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-slider swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="hero-slide" style="background-image: url('brus.jpg');">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <div class="hero-content">
+                                        <h1>Элитные пиломатериалы <span>премиум качества</span></h1>
+                                        <p class="lead">Эксклюзивная древесина для самых требовательных проектов</p>
+                                        <div class="cta-container mt-4">
+                                            <a href="#products" class="btn btn-primary btn-lg me-3">
+                                                <i class="fas fa-chevron-right me-2"></i> Каталог
+                                            </a>
+                                            <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#consultationModal">
+                                                Бесплатная консультация
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-slide" style="background-image: url('0d0a7251357c3996c42d876db2f41676.png');">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <div class="hero-content">
+                                        <h1>Деревянные панели <span>для интерьеров</span></h1>
+                                        <p class="lead">Экологичные решения для вашего дома и офиса</p>
+                                        <div class="cta-container mt-4">
+                                            <a href="#materials" class="btn btn-primary btn-lg me-3">
+                                                <i class="fas fa-chevron-right me-2"></i> Материалы
+                                            </a>
+                                            <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#consultationModal">
+                                                Получить образцы
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="hero-slide" style="background-image: url('128b228dc9ea13dc8e271f0579cdeb65\ \(1\).jpg');">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7">
+                                    <div class="hero-content">
+                                        <h1>Индивидуальные решения <span>из дерева</span></h1>
+                                        <p class="lead">Реализуем любые дизайнерские задумки</p>
+                                        <div class="cta-container mt-4">
+                                            <a href="#projects" class="btn btn-primary btn-lg me-3">
+                                                <i class="fas fa-chevron-right me-2"></i> Наши работы
+                                            </a>
+                                            <button class="btn btn-outline-light btn-lg" data-bs-toggle="modal" data-bs-target="#consultationModal">
+                                                Обсудить проект
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-section py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="trust-content">
+                            <h3>Экологично</h3>
+                            <p>100% натуральные материалы</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="trust-content">
+                            <h3>Премиум</h3>
+                            <p>Высший сорт древесины</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="trust-content">
+                            <h3>Доставка</h3>
+                            <p>По всей России и СНГ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="trust-item">
+                        <div class="trust-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <div class="trust-content">
+                            <h3>Эксперты</h3>
+                            <p>20 лет на рынке</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section py-6">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <div class="section-header mb-5">
+                        <span class="section-subtitle">О компании</span>
+                        <h2 class="section-title">KRONA — элитные пиломатериалы</h2>
+                    </div>
+                    <p class="lead mb-4">Компания KRONA специализируется на производстве и поставках элитных пиломатериалов из ценных пород древесины для создания эксклюзивных интерьеров и архитектурных решений.</p>
+                    <p class="mb-5">Мы работаем с лучшими поставщиками древесины со всего мира, чтобы предложить нашим клиентам исключительное качество и широкий ассортимент материалов. Наше производство оснащено современным европейским оборудованием, что позволяет добиться безупречного качества обработки.</p>
+                    
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="feature-box">
+                                <div class="feature-icon">
+                                    <i class="fas fa-tree"></i>
+                                </div>
+                                <h3>Собственные леса</h3>
+                                <p>Контроль качества от вырубки до поставки</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="feature-box">
+                                <div class="feature-icon">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                                <h3>Современное производство</h3>
+                                <p>Немецкое оборудование и технологии</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="24004468.jpg" alt="Производство KRONA" class="img-fluid" loading="lazy">
+                            <div class="experience-badge">
+                                <span>20</span>
+                                <small>лет<br>опыта</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Materials Section -->
+    <section id="materials" class="materials-section py-6 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <span class="section-subtitle">Породы древесины</span>
+                <h2 class="section-title">Элитные материалы</h2>
+                <p class="section-description">Мы работаем только с лучшими породами древесины, отобранными по строгим стандартам качества</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="material-card">
+                        <div class="material-image">
+                            <img src="dub.jpg" alt="Дуб" loading="lazy">
+                        </div>
+                        <div class="material-content">
+                            <h3>Дуб</h3>
+                            <p>Благородная древесина с выразительной текстурой и высокой прочностью</p>
+                            <div class="material-properties">
+                                <div class="property">
+                                    <span>Твердость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                                <div class="property">
+                                    <span>Устойчивость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-link">Подробнее <i class="fas fa-chevron-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="material-card">
+                        <div class="material-image">
+                            <img src="orex.jpg" alt="Орех" loading="lazy">
+                        </div>
+                        <div class="material-content">
+                            <h3>Орех</h3>
+                            <p>Роскошная древесина с богатой палитрой оттенков и изысканной текстурой</p>
+                            <div class="material-properties">
+                                <div class="property">
+                                    <span>Твердость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                                <div class="property">
+                                    <span>Устойчивость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-link">Подробнее <i class="fas fa-chevron-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="material-card">
+                        <div class="material-image">
+                            <img src="yasen.jpg" alt="Ясень" loading="lazy">
+                        </div>
+                        <div class="material-content">
+                            <h3>Ясень</h3>
+                            <p>Элегантная древесина с ярко выраженной текстурой и хорошей гибкостью</p>
+                            <div class="material-properties">
+                                <div class="property">
+                                    <span>Твердость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 80%"></div>
+                                    </div>
+                                </div>
+                                <div class="property">
+                                    <span>Устойчивость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 75%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-link">Подробнее <i class="fas fa-chevron-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="material-card">
+                        <div class="material-image">
+                            <img src="kraaasn.jpg" alt="Красное дерево" loading="lazy">
+                        </div>
+                        <div class="material-content">
+                            <h3>Красное дерево</h3>
+                            <p>Экзотическая древесина с насыщенным цветом и исключительной долговечностью</p>
+                            <div class="material-properties">
+                                <div class="property">
+                                    <span>Твердость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 85%"></div>
+                                    </div>
+                                </div>
+                                <div class="property">
+                                    <span>Устойчивость</span>
+                                    <div class="progress">
+                                        <div class="progress-bar" style="width: 90%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-link">Подробнее <i class="fas fa-chevron-right ms-2"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="#materials" class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-list me-2"></i> Все породы
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section py-6">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <span class="section-subtitle">Наша продукция</span>
+                <h2 class="section-title">Каталог материалов</h2>
+                <p class="section-description">Широкий ассортимент пиломатериалов для любых задач</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-badge">Хит продаж</div>
+                        <div class="product-image">
+                            <img src="parketdck.jpg" alt="Паркетная доска" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Паркетная доска</h3>
+                            <p class="product-description">Элитная паркетная доска из массива ценных пород древесины</p>
+                            <div class="product-price">
+                                <span>от 5 900 ₽/м²</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart me-2"></i> Заказать
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-badge">Новинка</div>
+                        <div class="product-image">
+                            <img src="panel.jpg" alt="Деревянные панели" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Стеновые панели</h3>
+                            <p class="product-description">Эксклюзивные деревянные панели для интерьеров</p>
+                            <div class="product-price">
+                                <span>от 3 200 ₽/м²</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart me-2"></i> Заказать
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-badge">Акция</div>
+                        <div class="product-image">
+                            <img src="kleeny-brus.jpeg" alt="Клееный брус" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Клееный брус</h3>
+                            <p class="product-description">Премиальный клееный брус для строительства</p>
+                            <div class="product-price">
+                                <span>от 42 000 ₽/м³</span>
+                                <small class="text-muted"><s>46 500 ₽/м³</s></small>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart me-2"></i> Заказать
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="terass.jpg" alt="Террасная доска" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Террасная доска</h3>
+                            <p class="product-description">Износостойкая доска для террас и веранд</p>
+                            <div class="product-price">
+                                <span>от 2 800 ₽/м²</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart me-2"></i> Заказать
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="lest.jpg" alt="Лестницы" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Лестницы из массива</h3>
+                            <p class="product-description">Эксклюзивные лестницы по индивидуальным проектам</p>
+                            <div class="product-price">
+                                <span>от 120 000 ₽</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart me-2"></i> Заказать
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="mebelP.jpg" alt="Мебель" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3>Мебель на заказ</h3>
+                            <p class="product-description">Эксклюзивная мебель из массива ценных пород</p>
+                            <div class="product-price">
+                                <span>Индивидуально</span>
+                            </div>
+                            <div class="product-actions">
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-shopping-cart me-2"></i> Заказать
+                                </button>
+                                <button class="btn btn-outline-secondary">
+                                    <i class="fas fa-info-circle"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="#products" class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-list me-2"></i> Весь каталог
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section py-6 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <span class="section-subtitle">Наши работы</span>
+                <h2 class="section-title">Реализованные проекты</h2>
+                <p class="section-description">Примеры наших работ с использованием элитных пиломатериалов</p>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card large">
+                    <img src="rezed.jpg" alt="Проект 1" loading="lazy">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3>Резиденция "Лесная"</h3>
+                            <p>Элитный загородный дом с отделкой из дуба и ореха</p>
+                            <a href="#" class="btn btn-outline-light">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="restdub.jpg" alt="Проект 2" loading="lazy">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3>Ресторан "Дубовый"</h3>
+                            <p>Интерьер с использованием дубовых панелей</p>
+                            <a href="#" class="btn btn-outline-light">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="ofis.jpg" alt="Проект 3" loading="lazy">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3>Офис "Премиум"</h3>
+                            <p>Деловой интерьер с элементами из ясеня</p>
+                            <a href="#" class="btn btn-outline-light">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="ozero.jpg" alt="Проект 4" loading="lazy">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3>Коттедж "У озера"</h3>
+                            <p>Отделка террасной доской из лиственницы</p>
+                            <a href="#" class="btn btn-outline-light">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="dub.jpg" alt="Проект 5" loading="lazy">
+                    <div class="project-overlay">
+                        <div class="project-content">
+                            <h3>Лофт "Променад"</h3>
+                            <p>Современный интерьер с деревянными акцентами</p>
+                            <a href="#" class="btn btn-outline-light">Подробнее</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="#projects" class="btn btn-primary btn-lg">
+                    <i class="fas fa-images me-2"></i> Все проекты
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section py-6">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <span class="section-subtitle">Наши услуги</span>
+                <h2 class="section-title">Комплексные решения</h2>
+                <p class="section-description">Полный цикл работ от заготовки древесины до монтажа</p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-forest"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Заготовка древесины</h3>
+                            <p>Собственные лесные угодья и контроль качества на всех этапах заготовки</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Отборные породы деревьев</li>
+                                <li><i class="fas fa-check"></i> Экологичная вырубка</li>
+                                <li><i class="fas fa-check"></i> Соблюдение стандартов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Производство</h3>
+                            <p>Современное оборудование для обработки древесины по европейским стандартам</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Камерная сушка</li>
+                                <li><i class="fas fa-check"></i> Точная обработка</li>
+                                <li><i class="fas fa-check"></i> Контроль качества</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Доставка и монтаж</h3>
+                            <p>Профессиональная доставка и установка пиломатериалов на объекте</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Специализированный транспорт</li>
+                                <li><i class="fas fa-check"></i> Аккуратная разгрузка</li>
+                                <li><i class="fas fa-check"></i> Квалифицированные монтажники</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Проектирование</h3>
+                            <p>Разработка индивидуальных проектов с использованием наших материалов</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> 3D-визуализация</li>
+                                <li><i class="fas fa-check"></i> Подбор материалов</li>
+                                <li><i class="fas fa-check"></i> Техническая документация</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-roller"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Отделка</h3>
+                            <p>Профессиональная отделка интерьеров и фасадов нашими материалами</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Подготовка поверхностей</li>
+                                <li><i class="fas fa-check"></i> Монтаж панелей</li>
+                                <li><i class="fas fa-check"></i> Финишная обработка</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-headset"></i>
+                        </div>
+                        <div class="service-content">
+                            <h3>Консультации</h3>
+                            <p>Профессиональные консультации по выбору и уходу за древесиной</p>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check"></i> Подбор материалов</li>
+                                <li><i class="fas fa-check"></i> Технические рекомендации</li>
+                                <li><i class="fas fa-check"></i> Советы по уходу</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section py-6 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <span class="section-subtitle">Отзывы</span>
+                <h2 class="section-title">Что говорят клиенты</h2>
+                <p class="section-description">Мнения наших клиентов о качестве продукции и уровне сервиса</p>
+            </div>
+
+            <div class="testimonials-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>Заказывал дубовый паркет для загородного дома. Качество материала превзошло все ожидания. Текстура древесины просто восхитительная, а укладка прошла без единой проблемы. Отдельно хочу отметить профессиональные консультации менеджеров.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="woman.webp" alt="Андрей Смирнов" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Андрей Смирнов</h4>
+                                    <span>Владелец загородного дома</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>Работаем с KRONA уже более 5 лет. Всегда стабильное качество материалов, четкие сроки поставки и гибкие условия сотрудничества. Для наших дизайнерских проектов используем только их древесину - клиенты всегда в восторге от результата.</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="woman.webp" alt="Елена Ковалева" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Елена Ковалева</h4>
+                                    <span>Дизайнер интерьеров</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonial-card">
+                            <div class="testimonial-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="testimonial-content">
+                                <p>Заказывали мебель на заказ из массива ореха. Результат превзошел все ожидания! Дерево потрясающей красоты, обработка на высшем уровне. Немного затянулись сроки изготовления, но за такое качество можно и подождать. Рекомендую!</p>
+                            </div>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <img src="woman.webp" alt="Ирина Волкова" loading="lazy">
+                                </div>
+                                <div class="author-info">
+                                    <h4>Ирина Волкова</h4>
+                                    <span>Частный клиент</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-6">
+        <div class="container">
+            <div class="cta-wrapper">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
+                        <h2 class="cta-title">Готовы обсудить ваш проект?</h2>
+                        <p class="cta-description">Оставьте заявку и наш специалист свяжется с вами для консультации</p>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <button class="btn btn-light btn-lg" data-bs-toggle="modal" data-bs-target="#consultationModal">
+                            <i class="fas fa-phone-alt me-2"></i> Заказать звонок
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners-section py-6 bg-light">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <span class="section-subtitle">Нам доверяют</span>
+                <h2 class="section-title">Партнеры</h2>
+            </div>
+
+            <div class="partners-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="partner-logo">
+                            <img src="img/partners/partner-1.png" alt="Партнер 1" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partner-logo">
+                            <img src="img/partners/partner-2.png" alt="Партнер 2" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partner-logo">
+                            <img src="img/partners/partner-3.png" alt="Партнер 3" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partner-logo">
+                            <img src="img/partners/partner-4.png" alt="Партнер 4" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partner-logo">
+                            <img src="img/partners/partner-5.png" alt="Партнер 5" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="partner-logo">
+                            <img src="img/partners/partner-6.png" alt="Партнер 6" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="contacts-section py-6">
+        <div class="container">
+            <div class="section-header text-center mb-6">
+                <span class="section-subtitle">Контакты</span>
+                <h2 class="section-title">Свяжитесь с нами</h2>
+                <p class="section-description">Мы всегда рады помочь вам с выбором и ответить на все вопросы</p>
+            </div>
+
+            <div class="row g-5">
+                <div class="col-lg-5 mb-5 mb-lg-0">
+                    <div class="contacts-card">
+                        <div class="contacts-info">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Адрес</h3>
+                                    <p>Москва, ул. Древесная, д. 12, офис 45</p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Телефон</h3>
+                                    <p><a href="tel:+78003332211">8 (800) 333-22-11</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:info@krona-wood.ru">info@krona-wood.ru</a></p>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h3>Режим работы</h3>
+                                    <p>Пн-Пт: 9:00 - 19:00<br>Сб: 10:00 - 16:00</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contacts-social">
+                            <h3>Мы в соцсетях</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                                <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7">
+                    <div class="contacts-form">
+                        <h3 class="form-title">Остались вопросы?</h3>
+                        <p class="form-description">Заполните форму и наш специалист свяжется с вами в ближайшее время</p>
+                        
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" id="contactName" placeholder="Ваше имя" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input type="tel" class="form-control" id="contactPhone" placeholder="Телефон" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="contactEmail" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="contactMessage" rows="4" placeholder="Ваш вопрос"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="contactAgree" required>
+                                        <label class="form-check-label" for="contactAgree">Я согласен на обработку персональных данных</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        <i class="fas fa-paper-plane me-2"></i> Отправить
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="map-section">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2245.373789429732!2d37.61763331593095!3d55.75202398055206!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5a738fa419%3A0x7c347d506f52311f!2z0JvQtdC90LjQvdCwINCb0LXQvdC40L3Qs9GA0LDQtA!5e0!3m2!1sru!2sru!4v1620000000000!5m2!1sru!2sru" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <div class="footer-logo mb-4">
+                        <a href="#">
+                            <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M30 60C46.5685 60 60 46.5685 60 30C60 13.4315 46.5685 0 30 0C13.4315 0 0 13.4315 0 30C0 46.5685 13.4315 60 30 60Z" fill="#2C7D3F"/>
+                                <path d="M30 15L37.5 22.5H22.5L30 15Z" fill="white"/>
+                                <path d="M30 45L22.5 37.5H37.5L30 45Z" fill="white"/>
+                                <path d="M15 30L22.5 22.5V37.5L15 30Z" fill="white"/>
+                                <path d="M45 30L37.5 37.5V22.5L45 30Z" fill="white"/>
+                            </svg>
+                            <span>KRONA</span>
+                        </a>
+                    </div>
+                    <p class="footer-about mb-4">Производство и продажа элитных пиломатериалов из ценных пород древесины для создания эксклюзивных интерьеров и архитектурных решений.</p>
+                    <div class="footer-social mb-4">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-pinterest-p"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h3 class="footer-title">Компания</h3>
+                    <ul class="footer-links">
+                        <li><a href="#about">О нас</a></li>
+                        <li><a href="#materials">Породы</a></li>
+                        <li><a href="#products">Каталог</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#services">Услуги</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-4 mb-4 mb-md-0">
+                    <h3 class="footer-title">Каталог</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Паркетная доска</a></li>
+                        <li><a href="#">Стеновые панели</a></li>
+                        <li><a href="#">Клееный брус</a></li>
+                        <li><a href="#">Террасная доска</a></li>
+                        <li><a href="#">Лестницы</a></li>
+                        <li><a href="#">Мебель</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                    <h3 class="footer-title">Контакты</h3>
+                    <ul class="footer-contacts">
+                        <li><i class="fas fa-map-marker-alt"></i> Москва, ул. Древесная, д. 12, офис 45</li>
+                        <li><i class="fas fa-phone-alt"></i> <a href="tel:+78003332211">8 (800) 333-22-11</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:info@krona-wood.ru">info@krona-wood.ru</a></li>
+                        <li><i class="fas fa-clock"></i> Пн-Пт: 9:00 - 19:00<br>Сб: 10:00 - 16:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-3 mb-md-0">
+                        <p class="mb-0">© 2023 KRONA. Все права защищены.</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <ul class="footer-legal">
+                            <li><a href="#">Политика конфиденциальности</a></li>
+                            <li><a href="#">Публичная оферта</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Consultation Modal -->
+    <div class="modal fade" id="consultationModal" tabindex="-1" aria-labelledby="consultationModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                    <div class="modal-header">
+                        <h3 class="modal-title" id="consultationModalLabel">Заказать консультацию</h3>
+                        <p class="modal-subtitle">Оставьте заявку и наш специалист свяжется с вами в течение 15 минут</p>
+                    </div>
+                    <form id="consultationForm">
+                        <div class="form-group mb-3">
+                            <input type="text" class="form-control" id="consultationName" placeholder="Ваше имя" required>
+                        </div>
+                        <div class="form-group mb-3">
+                            <input type="tel" class="form-control" id="consultationPhone" placeholder="Телефон" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <textarea class="form-control" id="consultationMessage" rows="3" placeholder="Ваш вопрос (необязательно)"></textarea>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" id="consultationAgree" required>
+                            <label class="form-check-label" for="consultationAgree">Я согласен на обработку персональных данных</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">
+                            <i class="fas fa-paper-plane me-2"></i> Отправить заявку
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center">
+                    <div class="success-icon mb-4">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 class="modal-title mb-3">Спасибо за вашу заявку!</h3>
+                    <p class="mb-4">Наш специалист свяжется с вами в ближайшее время.</p>
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+                        <i class="fas fa-times me-2"></i> Закрыть
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
